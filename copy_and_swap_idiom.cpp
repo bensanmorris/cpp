@@ -34,7 +34,7 @@ public:
     Foo& operator = (Foo rhs) // nb. Foo passed in by value (creates copy)
     {
         swap(*this, rhs);     // this's data copied into rhs, rhs's data copied into this
-        return *this;         // when this function return's rhs is destroyed which contains our old data
+        return *this;         // when this function returns rhs is destroyed which contains this's old data
     }
 
 private:
