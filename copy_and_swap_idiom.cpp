@@ -14,8 +14,7 @@ public:
 
     Foo(const Foo& rhs)
     :
-        size_(rhs.size_),
-        data_(rhs.size_ == 0 ? nullptr : new T[rhs.size_])
+        Foo(rhs.size_)
     {
         std::copy(rhs.data_, rhs.data_+size_, data_);
     }
