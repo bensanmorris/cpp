@@ -1,6 +1,6 @@
 # copy and swap idiom
 
-copy_and_swap_idiom based on:
+references:
 
     - https://stackoverflow.com/questions/3279543/what-is-the-copy-and-swap-idiom
     - https://web.archive.org/web/20140113221447/
